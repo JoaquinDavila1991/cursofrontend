@@ -10,122 +10,155 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Papelera Faraon</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div class="logo">
         <img src="imagenes/Logofaraon.jpg" alt="Silueta de un Faraon nombre del local Papelera Faraon">
-        <nav>
-            <ul>
-                <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
-                <li><a href="#productos"><i class="fas fa-box"></i> Productos</a></li>
-                <li><a href="#contacto"><i class="fa-solid fa-address-card"></i> Contacto</a></li>
+        </div>
+        <nav class="nav">
+            <ul class="navlist">
+                <li class="navbot"><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li class="navbot"><a href="#productos"><i class="fas fa-box"></i> Productos</a></li>
+                <li class="navbot"><a href="#contacto"><i class="fa-solid fa-address-card"></i> Contacto</a></li>
             </ul>
         </nav>
     </header>
  
-    <main>
+    <main class="main">
         <a id="inicio"></a>
 
         <section class="secciones presentacion">
-            <p>Somos una Papelera con mas de 10 años en el negocio, contamos con todos los productos que necesita para su negocio</p>
-            <img src="imagenes/papeleralocal.png" alt="imagen frontal del local">
+          <div class="nosotros">
+            <h2>¿Quienes somos?</h2>
+            <p>Somos una Papelera con mas de 10 años en el negocio, contamos con todos los productos que necesita para su negocio, ofrecemos una gran cantidad de productos, no solo para la oficina sino para todos sus negocios.
+              contamos con un amplio catalogo de productos y tambien hacemos entrega a domicilio. no dude en visitarnos. puede ver como todos nuestros clientes estan satisfechos con nosotros
+            </p>
+            </div>
+            <div class="local">
+              <img src="imagenes/papeleralocal.png" alt="foto del local">
+            </div>
+            </section>
+                  <section>
+        <a id="reseñas"></a>
+        <h2 id="tituloRese">RESEÑAS</h2>
+        <div class="resenias">
+          <div class="card">
+            <img src="imagenes/persona1.jpg" alt="reseña 1" />
+            <div class="card-content">
+              <span class="card-nombre">Juan Botardo</span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">30/02/2025</span>
+              <p>buen servicio, el vendedor simpatico</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/persona2.jpg" alt="reseña 2" />
+            <div class="card-content">
+              <span class="card-nombre">Maria Generica</span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">14/07/1984</span>
+              <p>buen precio, buenos productos, es lo unico que me permiten decir</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/persona3.jpg" alt="reseña 3" />
+            <div class="card-content">
+              <span class="card-nombre">Mariano Gimenez </span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">29/10/2030</span>
+              <p>aun no compre, y estoy seguro que es la mejor papelera</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/persona4.jpg" alt="reseña 4" />
+            <div class="card-content">
+              <span class="card-nombre">Micaela Juarez</span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">04/04/2024</span>
+              <p>Soy una reseña falsa, pero las 5 estrellas son reales</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/persona5.jpeg" alt="reseña 5" />
+            <div class="card-content">
+              <span class="card-nombre">Antonella Guarino</span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">14/03/2025</span>
+              <p>Buenos precios, buena calidad, el vendedor simpatico</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/persona6.jpeg" alt="reseña 6" />
+            <div class="card-content">
+              <span class="card-nombre">Juan Vega</span><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br />
+              <span class="card-fecha">16/07/2025</span>
+              <p>5 estrellas para el local, 2 y media para el que hizo la pagina, se nota que esta aprendiendo</p>
+            </div>
+          </div>
+        </div>
+      </section>
             
         </section>
         
         <a id="productos"></a>
         <section class="secciones">
             <h2>Productos</h2>
-            <h3>¡Estos son algunos de nuestros productos!</h3>
             <div class="productos">
-                <div class="producto">
-                    <img src="imagenes/lapiceras.jpg" alt="caja de lapiceras azules">
-                    <div class="producto-contenido">
-                        <h4>lapiceras por unidad</h4>
-                        <span>$800 </span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/cajadepizza.jpg" alt="cajas para pizza octagonales">
-                    <div class="producto-contenido">
-                        <h4>caja de pizza X 5</h4>
-                        <span>$ 2.000</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/resmadehojas.jpg" alt="resma de hojas A4">
-                    <div class="producto-contenido">
-                        <h4>Resma de hojas</h4>
-                        <span>$ 1.500</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/bolsacamiseta.jpg" alt="bolsa camiseta de 30cm por 45cm">
-                    <div class="producto-contenido">
-                        <h4>Bolsa camiseta por 20</h4>
-                        <span>$ 2.500</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/bandejadescargatable.jpg" alt="bandejas descartables ">
-                    <div class="producto-contenido">
-                        <h4>Bandeja decartable por 10</h4>
-                        <span>$ 1.00</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/plasticola.webp" alt="Plasticola">
-                    <div class="producto-contenido">
-                        <h4>Plasticola</h4>
-                        <span>$ 1.000</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/vasosdescatables.jpg" alt="Vasos descartables">
-                    <div class="producto-contenido">
-                        <h4>vasos descartables por 10</h4>
-                        <span>$ 3.000</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/cuaderno de presupuesto.jpg" alt="Cuadernillo de presupuesto">
-                    <div class="producto-contenido">
-                        <h4>presupuesto</h4>
-                        <span>$ 2.500</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/cuadernillo.jpg" alt="cuadernillos A4">
-                    <div class="producto-contenido">
-                        <h4>Cuadernillo A4</h4>
-                        <span>$ 5.000</span>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img src="imagenes/cartulinas.webp" alt="Cartulinas colores varios">
-                    <div class="producto-contenido">
-                        <h4>Cartulina por unidad</h4>
-                        <span>$ 500</span>
-                    </div>
-                </div>
+
             </div>
+
+            <!-- Carrito de compras -->
+            <section  class="carritoCompras">
+
+            </section>
         </section>
-        
             <div class="fondo-transparente secciones">
                 <h2>Contacto</h2>
                 <form action="https://formspree.io/f/xpwpgokn" method="POST">
                     <div>
-                        <label>Tu nombre:</label>
+                        <label for="nombre">Tu nombre:</label>
                         <input type="text" name="nombre">
                     </div>
                     <div>
-                        <label>Tu email:</label>
+                        <label for="email">Tu email:</label>
                         <input type="email" name="email">
                     </div>
                     <div>
-                        <label>Tu mensaje:</label>
+                        <label for="mensaje">Tu mensaje:</label>
                         <textarea name="message"></textarea>
                     </div>
                    
@@ -150,24 +183,19 @@
             </nav>
             <div class="redes">
                 <h4>Seguínos en nuestras redes</h4>
-                <ul>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <li><i class="fa-brands fa-square-instagram"></i> Instagram</li>
-                    </a>
-                    <a href="https://www.tiktok.com/es/" target="_blank">
-                        <li><i class="fa-brands fa-tiktok"></i> Tiktok</li>
-                    </a>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <li><i class="fa-brands fa-square-facebook"></i> Facebook</li>
-                    </a>
-                </ul>
+<ul>
+  <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i> Instagram</a></li>
+  <li><a href="https://www.tiktok.com/es/" target="_blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
+  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+</ul>
+
             </div>
         </div>
         <div class="copy">
             <p>Projecto Curso Front end- Joaquin Davila 2025</p>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
